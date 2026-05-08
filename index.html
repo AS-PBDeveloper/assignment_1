@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon Replica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+  
+</head>
+<body>
+  <main class="canvas">
+    <span class="sparkle s1">&#10022;</span>
+    <span class="sparkle s2">&#10022;</span>
+    <span class="sparkle s3">&#10022;</span>
+    <span class="sparkle s4">&#10022;</span>
+
+    <section class="panel">
+      <div class="soft-wave wave-one"></div>
+      <div class="soft-wave wave-two"></div>
+      <div class="plant-shape leaf-a"></div>
+      <div class="plant-shape leaf-b"></div>
+      <div class="plant-shape leaf-c"></div>
+      <div class="plant-shape leaf-d"></div>
+      <div class="plant-shape leaf-e"></div>
+
+      <button class="icon-button menu-button" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" alt="Pokemon">
+
+      <button class="icon-button sun-button" aria-label="Theme">
+        <span style="font-size: 28px;"><i class="ri-sun-line"></i></span>
+      </button>
+
+      <label class="search">
+        <span class="magnifier"></span>
+        <input type="text" placeholder="Search for a Pok&eacute;mon...">
+      </label>
+
+      <button class="filter-button">Filter by types (1)<span class="chevron"></span></button>
+      <button class="sort-button" aria-label="Sort"><span class="sort-lines"></span></button>
+
+      <article class="card grass-card">
+        <p class="number">#0908</p>
+        <button class="heart" aria-label="Favorite">&#9825;</button>
+        <span class="type-dot grass-dot">&#9670;</span>
+        <div class="image-orb grass-orb"></div>
+        <span class="leaf-chip l1"></span>
+        <span class="leaf-chip l2"></span>
+        <span class="leaf-chip l3"></span>
+        <img class="pokemon meowscarada" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/908.png" alt="Meowscarada">
+        <h2>Meowscarada</h2>
+        <span class="tag grass-tag"><span>&#9670;</span>GRASS</span>
+        <button class="arrow" aria-label="Open Meowscarada">&rarr;</button>
+      </article>
+
+      <article class="card steel-card">
+        <p class="number">#0624</p>
+        <button class="heart" aria-label="Favorite">&#9825;</button>
+        <span class="type-dot steel-dot">&#11042;</span>
+        <div class="image-orb steel-orb"></div>
+        <span class="leaf-chip steel-l1"></span>
+        <img class="pokemon pawniard" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/624.png" alt="Pawniard">
+        <h2>Pawniard</h2>
+        <span class="tag steel-tag"><span>&#11042;</span>DARK / STEEL</span>
+        <button class="arrow" aria-label="Open Pawniard">&rarr;</button>
+      </article>
+
+      <article class="card fire-card">
+        <p class="number">#0229</p>
+        <button class="heart" aria-label="Favorite">&#9825;</button>
+        <span class="type-dot fire-dot">&#9832;</span>
+        <div class="image-orb fire-orb"></div>
+        <span class="fire-fleck f1"></span>
+        <span class="fire-fleck f2"></span>
+        <img class="pokemon houndoom" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/229.png" alt="Houndoom">
+        <h2>Houndoom</h2>
+        <span class="tag fire-tag"><span>&#9832;</span>DARK / FIRE</span>
+        <button class="arrow" aria-label="Open Houndoom">&rarr;</button>
+      </article>
+
+      <article class="card water-card">
+        <p class="number">#0686</p>
+        <button class="heart" aria-label="Favorite">&#9825;</button>
+        <span class="type-dot water-dot">&#9679;</span>
+        <div class="image-orb water-orb"></div>
+        <img class="pokemon inkay" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/686.png" alt="Inkay">
+        <h2>Inkay</h2>
+        <span class="tag water-tag"><span>&#9679;</span>DARK / PSYCHIC</span>
+        <button class="arrow" aria-label="Open Inkay">&rarr;</button>
+      </article>
+
+      <nav class="feature-bar" aria-label="Pokemon sections">
+        <a href="#">
+          <span class="nav-icon blue-icon">&#9673;</span>
+          <strong>Explore</strong>
+          <em>Discover all your<br>favorite Pok&eacute;mon</em>
+        </a>
+        <a href="#">
+          <span class="nav-icon green-icon">&#9670;</span>
+          <strong>Filter</strong>
+          <em>Find Pok&eacute;mon by<br>types and abilities</em>
+        </a>
+        <a href="#">
+          <span class="nav-icon yellow-icon">&#9733;</span>
+          <strong>Collection</strong>
+          <em>Save and manage<br>your collection</em>
+        </a>
+        <a href="#">
+          <span class="nav-icon purple-icon">&#9823;</span>
+          <strong>Stats</strong>
+          <em>View stats and learn<br>about Pok&eacute;mon</em>
+        </a>
+      </nav>
+
+      <div class="footer-line"></div>
+      <div class="pokeball">&#8854;</div>
+      <p class="copyright">&copy; 2026 Pok&eacute;mon. All rights reserved.</p>
+    </section>
+  </main>
+</body>
+</html>
